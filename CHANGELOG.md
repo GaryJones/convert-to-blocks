@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file, per [the Ke
 
 ## [Unreleased] - TBD
 
+## [1.3.1] - 2024-08-20
+**Note that this release bumps the WordPress minimum version from 6.3 to 6.4.**
+
+### Changed
+- Bump WordPress "tested up to" version 6.6 (props [@sudip-md](https://github.com/sudip-md), [@jeffpaul](https://github.com/jeffpaul), [@Sidsector9](https://github.com/Sidsector9), [@ankitguptaindia](https://github.com/ankitguptaindia) via [#174](https://github.com/10up/convert-to-blocks/pull/174)).
+- Bump WordPress minimum from 6.3 to 6.4 (props [@sudip-md](https://github.com/sudip-md), [@jeffpaul](https://github.com/jeffpaul), [@Sidsector9](https://github.com/Sidsector9), [@ankitguptaindia](https://github.com/ankitguptaindia) via [#174](https://github.com/10up/convert-to-blocks/pull/174)).
+
+### Fixed
+- Issue with saving a post before the convert to blocks transform was completed (props [@mdesplenter](https://github.com/mdesplenter), [@Sidsector9](https://github.com/Sidsector9), [@dsawardekar](https://github.com/dsawardekar) via [#173](https://github.com/10up/convert-to-blocks/pull/173)).
+
+### Security
+- Bump `braces` from 3.0.2 to 3.0.3 (props [@dependabot](https://github.com/apps/dependabot), [@Sidsector9](https://github.com/Sidsector9) via [#168](https://github.com/10up/convert-to-blocks/pull/168)).
+- Bump `ws` from 7.5.9 to 7.5.10 (props [@dependabot](https://github.com/apps/dependabot), [@Sidsector9](https://github.com/Sidsector9) via [#169](https://github.com/10up/convert-to-blocks/pull/169)).
+
+### Developer
+- Move from `actions/upload-release-asset` to `softprops/action-gh-release` Github action (props [@Sidsector9](https://github.com/Sidsector9), [@jeffpaul](https://github.com/jeffpaul) via [#176](https://github.com/10up/convert-to-blocks/pull/176)).
+
 ## [1.3.0] - 2024-05-14
 ### Added
 - Block Catalog integration, and pagination support (props [@dsawardekar](https://github.com/dsawardekar), [@iamdharmesh](https://github.com/iamdharmesh) via [#164](https://github.com/10up/convert-to-blocks/pull/164)).
@@ -148,6 +165,7 @@ All notable changes to this project will be documented in this file, per [the Ke
 - Initial release of Convert to Blocks.
 
 [Unreleased]: https://github.com/10up/convert-to-blocks/compare/trunk...develop
+[1.3.1]: https://github.com/10up/convert-to-blocks/compare/1.3.0...1.3.1
 [1.3.0]: https://github.com/10up/convert-to-blocks/compare/1.2.1...1.3.0
 [1.2.2]: https://github.com/10up/convert-to-blocks/compare/1.2.1...1.2.2
 [1.2.1]: https://github.com/10up/convert-to-blocks/compare/1.2.0...1.2.1
