@@ -14,14 +14,14 @@ namespace ConvertToBlocks;
 class Assets {
 
 	/**
-	 * Flag stores whether the assets have been registered with WordPress
+	 * Flag stores whether the assets have been registered with WordPress.
 	 *
 	 * @var bool
 	 */
 	public $registered = false;
 
 	/**
-	 * Registers the scripts and styles of the Plugin.
+	 * Registers the plugin scripts and styles.
 	 */
 	public function register() {
 		wp_register_script(
@@ -45,8 +45,7 @@ class Assets {
 	}
 
 	/**
-	 * Enqueues the Scripts & Styles for the Smarter Travel Gutenberg
-	 * Migration Plugin.
+	 * Enqueues the plugin scripts and styles.
 	 */
 	public function do_assets() {
 		wp_enqueue_script( 'convert_to_blocks_editor' );
