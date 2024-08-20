@@ -47,7 +47,6 @@ Nested / Inner Block support does not work with Gutenberg bundled with WordPress
 * **Fixed:** Issue with saving a post before the convert to blocks transform was completed (props [@mdesplenter](https://github.com/mdesplenter), [@Sidsector9](https://github.com/Sidsector9), [@dsawardekar](https://github.com/dsawardekar) via [#173](https://github.com/10up/convert-to-blocks/pull/173)).
 * **Security:** Bump `braces` from 3.0.2 to 3.0.3 (props [@dependabot](https://github.com/apps/dependabot), [@Sidsector9](https://github.com/Sidsector9) via [#168](https://github.com/10up/convert-to-blocks/pull/168)).
 * **Security:** Bump `ws` from 7.5.9 to 7.5.10 (props [@dependabot](https://github.com/apps/dependabot), [@Sidsector9](https://github.com/Sidsector9) via [#169](https://github.com/10up/convert-to-blocks/pull/169)).
-* **Developer:** Move from `actions/upload-release-asset` to `softprops/action-gh-release` Github action (props [@Sidsector9](https://github.com/Sidsector9), [@jeffpaul](https://github.com/jeffpaul) via [#176](https://github.com/10up/convert-to-blocks/pull/176)).
 
 = 1.3.0 - 2024-05-14 =
 * **Added:** Block Catalog integration, and pagination support (props [@dsawardekar](https://github.com/dsawardekar), [@iamdharmesh](https://github.com/iamdharmesh) via [#164](https://github.com/10up/convert-to-blocks/pull/164)).
