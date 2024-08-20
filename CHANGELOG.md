@@ -19,7 +19,9 @@ All notable changes to this project will be documented in this file, per [the Ke
 - Bump `ws` from 7.5.9 to 7.5.10 (props [@dependabot](https://github.com/apps/dependabot), [@Sidsector9](https://github.com/Sidsector9) via [#169](https://github.com/10up/convert-to-blocks/pull/169)).
 
 ### Developer
+- Update code comments (props [@barryceelen](https://github.com/barryceelen), [@dkotter](https://github.com/dkotter) via [#175](https://github.com/10up/convert-to-blocks/pull/175)).
 - Move from `actions/upload-release-asset` to `softprops/action-gh-release` Github action (props [@Sidsector9](https://github.com/Sidsector9), [@jeffpaul](https://github.com/jeffpaul) via [#176](https://github.com/10up/convert-to-blocks/pull/176)).
+- Update repo badges, add WordPress Playground badge (props [@jeffpaul](https://github.com/jeffpaul), [@dkotter](https://github.com/dkotter) via [#177](https://github.com/10up/convert-to-blocks/pull/177)).
 
 ## [1.3.0] - 2024-05-14
 ### Added
